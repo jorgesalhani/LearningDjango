@@ -4,16 +4,12 @@
     <title>Coding Django <> MariaDB</title>
 </head>
 <body>
+
+    {% include 'navbar.html' %}
+
     {% block content %}
     replace me
     {% endblock %}
 
-    {% block second_content%}
-    Second content
-    {% endblock second_content%}
-
-    {% block home_content %}
-    Homepage content
-    {% endblock %}
 </body>
 </html>
