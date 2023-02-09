@@ -3,4 +3,3 @@
 !.gitignore
 *pycache*
 src/products/migrations
-!src/products/migrations/*_initial.py
